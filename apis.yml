@@ -1,7 +1,26 @@
 aid: huddl
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/huddl.png
 name: Huddl
-description: Huddl is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Huddl (huddl.ai) was an AI meeting-collaboration platform founded in 2017
+  in Mountain View, California by CEO Krishna Yarlagadda and CTO Nava Davuluri. The product
+  acted as a collaboration hub layered over Zoom, Webex, and Microsoft Teams, using automatic
+  speech recognition to turn meeting audio into searchable text alongside real-time
+  collaborative note-taking and AI-generated meeting summaries. The company raised roughly
+  $8.7M in venture funding. As of this enrichment pass the huddl.ai domain no longer
+  resolves (delegated to Namecheap parking nameservers with no A/AAAA/MX/TXT records),
+  indicating the service is discontinued; no public API, developer portal, OpenAPI,
+  or GitHub organization could be located.
 url: https://raw.githubusercontent.com/api-evangelist/huddl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,22 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-checked: '2026-07-19'
+x-status-evidence: huddl.ai has only NS+SOA at Namecheap parking nameservers; no A/AAAA/MX/TXT/SPF/DMARC/CAA/DNSKEY
+  records; www/api/docs/developer subdomains do not resolve; github.com/huddl-ai returns 404.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Collaboration
+- Meetings
+- Artificial Intelligence
+- Productivity
+- Video Conferencing
+- Speech Recognition
+- Note-Taking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.huddl.ai/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
