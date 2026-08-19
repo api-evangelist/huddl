@@ -32,7 +32,7 @@ x-status: defunct
 x-status-checked: '2026-07-19'
 x-status-evidence: huddl.ai has only NS+SOA at Namecheap parking nameservers; no A/AAAA/MX/TXT/SPF/DMARC/CAA/DNSKEY
   records; www/api/docs/developer subdomains do not resolve; github.com/huddl-ai returns 404.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
