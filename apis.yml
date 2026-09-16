@@ -44,7 +44,7 @@ x-status-evidence: huddl.ai has only NS+SOA at Namecheap parking nameservers; no
   records; www/api/docs/developer subdomains do not resolve; github.com/huddl-ai returns 404.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Collaboration
@@ -54,6 +54,7 @@ tags:
 - Video Conferencing
 - Speech Recognition
 - Note Taking
+- Defunct
 tags_raw:
 - Company
 - Collaboration
@@ -63,6 +64,7 @@ tags_raw:
 - Video Conferencing
 - Speech Recognition
 - Note-Taking
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
